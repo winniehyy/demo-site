@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        main {
+            width: 1920px;
+            height: 1080px;
+            background-image:url(./img/tw-map-1.jpg);
+            background-size: 30%;
+            background-repeat: no-repeat;
+            background-position: 65%;
+            display: flex;
+            margin: auto;
+        }
+
+        .container-left {
+            width: 1500px;
+            height: 1080px;
+        }
+
+        .container-right {
+            width: 400px;
+            height: 1080px;
+            /* border: 1px solid gray; */
+        }
+
+        .banner {
+            width: 350px;
+            height: 50px;
+            color: gray;
+            border-bottom: 1px lightgray solid;
+            text-align: center;
+            line-height: 50px;
+            margin-top: 30%;
+            
+        }
+        
+        .north, .west, .south {
+            width: 1480px;
+            height: 350px;
+            margin: 10px;
+            /* border: 1px solid gray; */
+            display: flex;
+        }
+        
+        .card {
+            width: 200px;
+            height: 270px;
+            background-color: rgba(95, 132, 141, 0.767);
+            margin: 50px 0 50px 50px;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: rgb(63, 59, 59);
+            font-weight: bolder;
+            font-family: 'Microsoft JhengHei';
+            opacity: 0.8;
+            line-height: 1.5;
+            font-size: 20px;
+        }
+
+        i {
+            color: #fff;
+            font-size: 100px;
+            margin: 20px;
+            margin-bottom: 10px;
+        }
+
+
+
+
+    </style>
+
+
+</head>
+<body>
+
+    <main>
+        <div class="container-left">
+            <div class="north">
+                <div class="card">
+                    <div class="forecast"><i class="fa-regular fa-sun"></i></div>
+                    <div class="city">基隆</div>
+                    <div class="temp">氣溫 22-30</div>
+                    <div class="temp-feel">體感溫度 25-36</div>
+                    <div class="comfort">舒適度 非常悶熱</div>
+                </div>
+                <div class="card">
+                    <div class="forecast"><i class="fa-solid fa-cloud"></i></div>
+                    <div class="city">台北</div>
+                    <div class="temp">氣溫 25-32</div>
+                    <div class="temp-feel">體感溫度 29-36</div>
+                    <div class="comfort">舒適度 悶熱</div>
+                </div>
+                <div class="card">
+                    <div class="forecast"><i class="fa-solid fa-cloud-bolt"></i></div>
+                    <div class="city">新北</div>
+                    <div class="temp">氣溫 22-30</div>
+                    <div class="temp-feel">體感溫度 25-36</div>
+                    <div class="comfort">舒適度 悶熱</div>
+                </div>
+                <div class="card">
+                    <div class="forecast"><i class="fa-solid fa-cloud-showers-heavy"></i></div>
+                    <div class="city">桃園</div>
+                    <div class="temp">氣溫 22-30</div>
+                    <div class="temp-feel">體感溫度 25-36</div>
+                    <div class="comfort">舒適度 悶熱</div>
+                </div>
+                <div class="card">
+                    <div class="forecast"><i class="fa-solid fa-cloud-sun"></i></div>
+                    <div class="city">新竹</div>
+                    <div class="temp">氣溫 22-30</div>
+                    <div class="temp-feel">體感溫度 25-36</div>
+                    <div class="comfort">舒適度 悶熱</div>
+                </div>
+            </div>
+            <div class="west">
+                <div class="card">
+                    <div class="forecast"><i class="fa-regular fa-sun"></i></div>
+                    <div class="city">苗栗</div>
+                    <div class="temp">氣溫 22-30</div>
+                    <div class="temp-feel">體感溫度 25-36</div>
+                    <div class="comfort">舒適度 非常悶熱</div>
+                </div>
+                <div class="card">
+                    <div class="forecast"><i class="fa-solid fa-cloud"></i></div>
+                    <div class="city">台中</div>
+                    <div class="temp">氣溫 25-32</div>
+                    <div class="temp-feel">體感溫度 29-36</div>
+                    <div class="comfort">舒適度 悶熱</div>
+                </div>
+                <div class="card">
+                    <div class="forecast"><i class="fa-solid fa-cloud-bolt"></i></div>
+                    <div class="city">彰化</div>
+                    <div class="temp">氣溫 22-30</div>
+                    <div class="temp-feel">體感溫度 25-36</div>
+                    <div class="comfort">舒適度 悶熱</div>
+                </div>
+                <div class="card">
+                    <div class="forecast"><i class="fa-solid fa-cloud-showers-heavy"></i></div>
+                    <div class="city">南投</div>
+                    <div class="temp">氣溫 22-30</div>
+                    <div class="temp-feel">體感溫度 25-36</div>
+                    <div class="comfort">舒適度 悶熱</div>
+                </div>
+                <div class="card">
+                    <div class="forecast"><i class="fa-solid fa-cloud-sun"></i></div>
+                    <div class="city">雲林</div>
+                    <div class="temp">氣溫 22-30</div>
+                    <div class="temp-feel">體感溫度 25-36</div>
+                    <div class="comfort">舒適度 悶熱</div>
+                </div>
+            </div>
+
+            <div class="south">
+                <div class="card">
+                    <div class="forecast"><i class="fa-regular fa-sun"></i></div>
+                    <div class="city">嘉義</div>
+                    <div class="temp">氣溫 22-30</div>
+                    <div class="temp-feel">體感溫度 25-36</div>
+                    <div class="comfort">舒適度 非常悶熱</div>
+                </div>
+                <div class="card">
+                    <div class="forecast"><i class="fa-solid fa-cloud"></i></div>
+                    <div class="city">台南</div>
+                    <div class="temp">氣溫 25-32</div>
+                    <div class="temp-feel">體感溫度 29-36</div>
+                    <div class="comfort">舒適度 悶熱</div>
+                </div>
+                <div class="card">
+                    <div class="forecast"><i class="fa-solid fa-cloud-bolt"></i></div>
+                    <div class="city">高雄</div>
+                    <div class="temp">氣溫 22-30</div>
+                    <div class="temp-feel">體感溫度 25-36</div>
+                    <div class="comfort">舒適度 悶熱</div>
+                </div>
+                <div class="card">
+                    <div class="forecast"><i class="fa-solid fa-cloud-showers-heavy"></i></div>
+                    <div class="city">屏東</div>
+                    <div class="temp">氣溫 22-30</div>
+                    <div class="temp-feel">體感溫度 25-36</div>
+                    <div class="comfort">舒適度 悶熱</div>
+                </div>
+                <div class="card">
+                    <div class="forecast"><i class="fa-solid fa-cloud-sun"></i></div>
+                    <div class="city">澎湖</div>
+                    <div class="temp">氣溫 22-30</div>
+                    <div class="temp-feel">體感溫度 25-36</div>
+                    <div class="comfort">舒適度 悶熱</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-right">
+            <div class="banner"><h2>Taiwan Weather Forecast</h2></div>
+            <div class="east">
+                <div class="card">
+                    <div class="forecast"><i class="fa-solid fa-cloud-bolt"></i></div>
+                    <div class="city">宜蘭</div>
+                    <div class="temp">氣溫 22-30</div>
+                    <div class="temp-feel">體感溫度 25-36</div>
+                    <div class="comfort">舒適度 悶熱</div>
+                </div>
+                <div class="card">
+                    <div class="forecast"><i class="fa-solid fa-cloud-showers-heavy"></i></div>
+                    <div class="city">台東</div>
+                    <div class="temp">氣溫 22-30</div>
+                    <div class="temp-feel">體感溫度 25-36</div>
+                    <div class="comfort">舒適度 悶熱</div>
+                </div>
+                <div class="card">
+                    <div class="forecast"><i class="fa-solid fa-cloud-sun"></i></div>
+                    <div class="city">花蓮</div>
+                    <div class="temp">氣溫 22-30</div>
+                    <div class="temp-feel">體感溫度 25-36</div>
+                    <div class="comfort">舒適度 悶熱</div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    
+    <script>
+
+
+    </script>
+</body>
+</html>
